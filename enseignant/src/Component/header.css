@@ -1,0 +1,52 @@
+.gosto .head{
+    background-color: #026a98;
+    box-shadow: 0px 10px 40px grey;
+}
+.gosto .head .headfirst{
+height: 10vh;
+display: flex;
+
+margin-left: 20%;
+} 
+.avatar{
+color: #025579;
+background-color: aliceblue;
+
+padding: auto;
+margin-left: 10px;
+font-size: 18px;
+font-weight: bold ;
+}
+.gosto .head .headfirst div p{
+font-size: 40px;
+margin: 0;
+margin-top: 20px;
+font-weight: bold;
+color: aliceblue;
+line-height: 0.6;
+
+}
+.gosto .head .headfirst div .spann {
+font-size: 15px;
+letter-spacing: 13px;
+text-transform: uppercase;
+color: aliceblue;
+font-weight: 700;
+padding-left: 2px;
+}
+
+.gosto .head .headfirst button{
+background-color: transparent;
+color: aliceblue;
+font-weight: 600;
+border-color: aliceblue ;
+border-radius: 3px;
+border: 1px solid;
+}
+
+.gosto .head .headfirst button:hover{
+background-color: aliceblue;
+color: #025579; 
+border: 1px solid aliceblue;
+
+}

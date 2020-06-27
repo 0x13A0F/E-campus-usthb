@@ -1,0 +1,296 @@
+.body {
+  margin: 0;
+  color: #6a6f8c;
+  background: #c8c8c8;
+  font: 600 16px/18px "Open Sans", sans-serif;
+  align-items: center;
+  background-image: url(../b.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+*,
+:after,
+:before {
+  box-sizing: border-box;
+}
+.clearfix:after,
+.clearfix:before {
+  content: "";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+  display: block;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.login-wrap {
+  width: 100%;
+  margin: auto;
+  top: 100px;
+  max-width: 525px;
+  min-height: 670px;
+  position: relative;
+
+  box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+.login-html {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  padding: 90px 70px 50px 70px;
+  background: rgba(8, 16, 36, 0.9);
+}
+.login-html .sign-in-htm,
+.login-html .sign-up-htm {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  transform: rotateY(180deg);
+  backface-visibility: hidden;
+  transition: all 0.4s linear;
+}
+.login-html .sign-in,
+.login-html .sign-up,
+.login-form .group .check {
+  display: none;
+}
+.login-html .tab,
+.login-form .group .label,
+.login-form .group .button {
+  text-transform: uppercase;
+}
+.login-html .tab {
+  font-size: 22px;
+  margin-right: 15px;
+  padding-bottom: 5px;
+  margin: 0 15px 10px 0;
+  display: inline-block;
+  border-bottom: 2px solid transparent;
+}
+.login-html .sign-in:checked + .tab,
+.login-html .sign-up:checked + .tab {
+  color: #fff;
+  border-color: #1161ee;
+}
+.login-form {
+  min-height: 345px;
+  position: relative;
+  perspective: 1000px;
+  transform-style: preserve-3d;
+}
+.login-form .group {
+  margin-bottom: 15px;
+}
+.login-form .group .label,
+.login-form .group .input,
+.login-form .group .button {
+  width: 100%;
+  color: #fff;
+  display: block;
+}
+.login-form .group .input,
+.login-form .group .button {
+  border: none;
+  padding: 15px 20px;
+  border-radius: 25px;
+  background: rgba(255, 255, 255, 0.1);
+}
+.login-form .group input[data-type="password"] {
+  text-security: circle;
+  -webkit-text-security: circle;
+}
+.login-form .group .label {
+  color: #aaa;
+  font-size: 12px;
+}
+.login-form .group .button {
+  background: #1161ee;
+}
+.login-form .group label .icon {
+  width: 15px;
+  height: 15px;
+  border-radius: 2px;
+  position: relative;
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.1);
+}
+.login-form .group label .icon:before,
+.login-form .group label .icon:after {
+  content: "";
+  width: 10px;
+  height: 2px;
+  background: #fff;
+  position: absolute;
+  transition: all 0.2s ease-in-out 0s;
+}
+.login-form .group label .icon:before {
+  left: 3px;
+  width: 5px;
+  bottom: 6px;
+  transform: scale(0) rotate(0);
+}
+.login-form .group label .icon:after {
+  top: 6px;
+  right: 0;
+  transform: scale(0) rotate(0);
+}
+.login-form .group .check:checked + label {
+  color: #fff;
+}
+.login-form .group .check:checked + label .icon {
+  background: #1161ee;
+}
+.login-form .group .check:checked + label .icon:before {
+  transform: scale(1) rotate(45deg);
+}
+.login-form .group .check:checked + label .icon:after {
+  transform: scale(1) rotate(-45deg);
+}
+.login-html
+  .sign-in:checked
+  + .tab
+  + .sign-up
+  + .tab
+  + .login-form
+  .sign-in-htm {
+  transform: rotate(0);
+}
+.login-html .sign-up:checked + .tab + .login-form .sign-up-htm {
+  transform: rotate(0);
+}
+
+.hr {
+  height: 2px;
+  margin: 60px 0 50px 0;
+  background: rgba(255, 255, 255, 0.2);
+}
+.foot-lnk {
+  text-align: center;
+}
+
+.body_wrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.head_body_wrapper {
+  margin-top: 3%;
+  margin-left: 2%;
+  display: flex;
+}
+
+.body_wrapper .center {
+  margin: 5%;
+  margin-top: 2%;
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+.element:hover .fontcss {
+  color: #01134ebc;
+  font-size: 104px;
+}
+
+.element .fontcss {
+  color: #1e3ef3;
+  font-size: 100px;
+  flex: 1;
+  margin-left: 25px;
+}
+
+.header_wrapper {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+.petitheader_wrapper {
+  display: flex;
+  height: 10vh;
+  min-height: 60px;
+  background-color: rgba(89, 208, 255, 0.185);
+}
+.image_wrapper {
+  height: 70vh;
+
+  background-image: url("../groupe-organisation-conseil-administration.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.logo {
+  width: 20%;
+
+  background-image: url("../USTHB_Logo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 90px 70px;
+}
+.nav-menu {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-left: 30vw;
+  margin-right: 5vw;
+}
+
+.nav-item {
+  margin: 10px 10px;
+  display: flex;
+  align-items: center;
+}
+
+.nav-item a {
+  font-size: 20px;
+
+  text-transform: uppercase;
+
+  -webkit-transition: 0.15s;
+  -o-transition: 0.15s;
+  transition: 0.15s;
+  cursor: pointer;
+  color: #001c9b;
+}
+.nav-item a:hover {
+  transition: 0.3s;
+  color: #001c9b;
+  font-size: 22px;
+  font-weight: bolder;
+}
+.nav-item a:active {
+  font-size: 22px;
+  font-weight: bolder;
+}
+.nav-item .icon {
+  font-size: 17px;
+  margin-left: 5px;
+  margin-bottom: 1px;
+}
+.nav-item a:hover ~ .icon {
+  transition: 0.3s;
+  font-size: 19px;
+}
+
+.DivBorderWrape {
+  align-self: center;
+  margin: auto;
+}

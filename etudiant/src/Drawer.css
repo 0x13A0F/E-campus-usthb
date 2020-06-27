@@ -1,0 +1,19 @@
+.site-form-in-drawer-wrapper {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  width: 100%;
+  padding: 10px 16px;
+  border-top: 1px solid #e9e9e9;
+  background: #fff;
+  text-align: right;
+}
+.emailr {
+  font-size: 50px;
+  color: red;
+  margin-left: 290px;
+}
+.Bin2 {
+  margin-right: 8px;
+  background-color: aqua;
+}

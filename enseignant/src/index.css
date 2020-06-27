@@ -1,0 +1,149 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.bingo{
+  position: absolute;
+  z-index: 1;
+  top: 0;
+}
+.bingo2{
+  fill: url(#MyGradient);
+}
+
+.allpage{
+  z-index: 2;
+  height: 100vh;
+  width: 100vw;
+  
+}
+.allpage div p {
+  margin-left: 25%;
+  margin-right: 25%;
+  font-family:  Helvetica, Arial, sans-serif;
+  font-size: 22px;
+  line-height: 1.2;
+  color: #4a4a4a;
+  
+}
+.allpage .head {
+  width: 100vw;
+  
+  
+  display: flex;
+  flex-direction: column;
+}
+.allpage .head .headfirst{
+  margin-left: 20%;
+  height: 10vh;
+  display: flex;
+  /* font-family: "Lucida Console", Monaco, monospace */
+} 
+.avatar{
+  color: #025579;
+  background-color: aliceblue;
+  
+  padding: auto;
+  margin-left: 10px;
+  font-size: 18px;
+  font-weight: bold ;
+}
+.allpage .head .headfirst p{
+  font-size: 40px;
+  margin: 0;
+  margin-top: 20px;
+  font-weight: bold;
+  color: aliceblue;
+  line-height: 0.6;
+
+}
+.allpage .head .headfirst .spann {
+  font-size: 15px;
+  letter-spacing: 13px;
+  text-transform: uppercase;
+  color: aliceblue;
+  font-weight: 700;
+  padding-left: 2px;
+}
+.allpage .head .headfirst button{
+  background-color: transparent;
+  color: aliceblue;
+  font-weight: 600;
+  border-color: aliceblue ;
+  border-radius: 3px;
+  border: 1px solid;
+}
+
+.allpage .head .headfirst button:hover{
+  background-color: aliceblue;
+  color: #025579; 
+  border: 1px solid aliceblue;
+  
+}
+
+.fffff{
+  display: flex;
+  flex-direction: row-reverse;
+  margin: auto;
+  padding: auto;
+  margin-right: 30%;
+  
+}
+.allpage .head .headsecond{
+  height: 45vh;
+  width: 100vw;
+}
+.allpage .head .headsecond div{
+  
+  margin-left: 16%;
+  margin-top: 2%;
+  
+
+}
+#kkk{
+  font-size: 30px;
+  margin-left: 25%;
+}
+.allpage .head .headsecond div p{
+  font-size: 40px;
+  margin:0;
+  padding: 0%;
+  margin-left: inherit;
+  color: aliceblue;
+  letter-spacing: 4px;
+}
+.jjj{
+  margin-top: 30px;
+  display: flex;
+  justify-content:center;
+}
+.jjj .btn2{
+  margin-left: 40px;
+  background-color: #025579;
+  color: aliceblue;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.jjj .btn2:hover{
+  background-color: #025579;
+  color: aliceblue;
+  font-size: 18px;
+  font-weight: 700;
+}
+.jjj .btn1{
+  background-color: #025579da;
+  color: aliceblue;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.jjj .btn1:hover{
+  
+  background-color: #025579;
+  color: aliceblue;
+  font-size: 18px;
+  font-weight: 700;
+}

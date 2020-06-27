@@ -1,0 +1,42 @@
+{
+  "name": "profs",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.28",
+    "@fortawesome/free-solid-svg-icons": "^5.13.0",
+    "@fortawesome/react-fontawesome": "^0.1.9",
+    "@material-ui/core": "^4.10.2",
+    "antd": "^4.3.2",
+    "axios": "^0.19.2",
+    "bootstrap": "^4.4.1",
+    "crypto-js": "^4.0.0",
+    "datetimepicker": "^0.1.39",
+    "firebase": "^7.13.1",
+    "input-moment": "^0.4.0",
+    "node-rsa": "^1.0.8",
+    "react": "^16.13.1",
+    "react-advanced-datetimerange-picker": "^1.0.11",
+    "react-bootstrap": "^1.0.0",
+    "react-border-wrapper": "^1.0.3",
+    "react-datepicker": "^2.14.1",
+    "react-dom": "^16.13.1",
+    "react-fontawesome": "^1.7.1",
+    "react-icons": "^3.9.0",
+    "react-pdf": "^4.1.0",
+    "react-router": "^5.1.2",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "0.9.5",
+    "react-select": "^3.1.0",
+    "reactjs-popup": "^1.5.0",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^0.88.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "PORT=7000 react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

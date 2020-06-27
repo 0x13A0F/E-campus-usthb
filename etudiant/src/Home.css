@@ -1,0 +1,394 @@
+/* Style the main content */
+.main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  height: 96vh;
+  background-size: cover;
+  background-color: rgb(255, 255, 255);
+  height: 100vh;
+}
+
+/* Add media queries for small screens (when the height of the screen is less than 450px, add a smaller padding and font-size) */
+@media screen and (max-height: 450px) {
+  .sidebar {
+    padding-top: 15px;
+  }
+  .sidebar a {
+    font-size: 18px;
+  }
+}
+:root {
+  --my-color: teal;
+}
+.NomDuModule {
+  font-size: 37px;
+  color: black;
+  font-weight: bold;
+
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.Question {
+  font-size: 32px;
+  color: black;
+  font-weight: bold;
+
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.OptionsTxt {
+  font-size: 28px;
+  text-decoration: underline;
+
+  color: #001230;
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.TitreDuFormulaire {
+  font-size: 40px;
+  color: black;
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.InpUti {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: start;
+}
+.DateLimite {
+  align-self: flex-end;
+  margin-left: 650px;
+  text-decoration: underline;
+
+  font-size: 20px;
+  color: #750000;
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.optionsjsss {
+  font-size: 24px;
+  color: #001361;
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-right: 5px;
+}
+.optionsjss {
+  font-size: 18px;
+  color: black;
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.container_formulaire_head {
+  display: flex;
+  flex-direction: column;
+  margin: 4% 20%;
+  padding: 4%;
+  border: 1px rgb(160, 160, 160) solid;
+  border-radius: 10px;
+  border: solid;
+  border-top: 10px#e97070 solid;
+
+  --my-color: rgb(0, 46, 250);
+}
+
+.repRadioBtn {
+  display: flex;
+}
+.direction {
+  display: block;
+  flex-direction: row;
+}
+/*__________________________Pour le formulaire body_____________*/
+.container_formulaire {
+  display: flex;
+  flex-direction: column;
+  margin: 4% 20%;
+  padding: 4%;
+  border: 1px rgb(160, 160, 160) solid;
+  border-radius: 10px;
+  border-left: 10px teal solid;
+}
+.lbl_textarea {
+  margin-top: 5%;
+  margin-bottom: 5px;
+  text-align-last: left;
+}
+.textarea {
+  margin-bottom: 5%;
+  max-width: 100%;
+}
+.options {
+  display: flex;
+  margin-bottom: 14px;
+}
+
+.option {
+  border: none;
+  border-bottom: 2px black solid;
+  margin-right: 10px;
+}
+
+.option:focus {
+  outline: none;
+  border-bottom: 2px teal solid;
+}
+
+.fontcss {
+  font-size: 18px;
+  margin-right: 7px;
+  color: teal;
+}
+.fontcss2 {
+  color: white;
+}
+.divwat {
+  padding-left: 30px;
+}
+.DivWatu {
+  margin-left: 20%;
+  margin-right: 5%;
+}
+.aertt {
+  background-color: #025579da;
+  font-size: large;
+  margin-bottom: 20px;
+}
+.DivEnglobanteDuFormulaire {
+  border-style: solid;
+  border-top: 2rem solid;
+  border-bottom: 0.5rem solid;
+  border-color: #025579da;
+  background-image: url("./17580.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5em;
+  padding: 10px;
+  margin: 200px;
+}
+.DivWatuS {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  background-color: rgb(0, 177, 177);
+  color: white;
+  outline: none;
+}
+
+.btn:hover {
+  font-weight: bold;
+  background-color: teal;
+}
+
+/* _____________________________________Pour le input_______________________________ */
+
+.form {
+  width: 70%;
+  position: relative;
+  /* left: 350px; */
+  height: 50px;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+}
+
+.form input {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: 100%;
+  color: black;
+  padding-top: 10px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+.form label {
+  position: absolute;
+  border-bottom: 1px solid black;
+  bottom: 0px;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  border-bottom: 1px solid black;
+  display: flex;
+}
+
+.form label::after {
+  content: "";
+  position: absolute;
+  left: 0px;
+  bottom: -1px;
+  width: 100%;
+  height: 100%;
+  border-bottom: 3px solid Var(--my-color);
+  transform: translateX(-100%);
+  transition: all 0.3s ease;
+}
+.content-name {
+  position: absolute;
+  bottom: 5px;
+  left: 0px;
+  transition: all 0.3s ease;
+}
+
+.form input:focus + .label-name .content-name,
+.form input:valid + .label-name .content-name {
+  transform: translateY(-150%);
+  font-size: 14px;
+  color: Var(--my-color);
+}
+.form input:focus + .label-name::after,
+.form input:valid + .label-name::after {
+  transform: translate(0%);
+  transition: all 0.3s ease;
+}
+/* ______________________________________________________________________________ */
+
+.allpage {
+  z-index: 2;
+  height: 100vh;
+  width: 100vw;
+}
+.allpage div p {
+  margin-left: 25%;
+  margin-right: 25%;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 22px;
+  line-height: 1.2;
+  color: #4a4a4a;
+}
+.allpage .head {
+  width: 100vw;
+
+  display: flex;
+  flex-direction: column;
+}
+.allpage .head .headfirst {
+  margin-left: 20%;
+  height: 10vh;
+  display: flex;
+  /* font-family: "Lucida Console", Monaco, monospace */
+}
+.main .avatar {
+  color: #025579;
+  background-color: aliceblue;
+
+  padding: auto;
+  margin-left: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.allpage .head .headfirst p {
+  font-size: 40px;
+  margin: 0;
+  margin-top: 20px;
+  font-weight: bold;
+  color: aliceblue;
+  line-height: 0.6;
+}
+.allpage .head .headfirst .spann {
+  font-size: 15px;
+  letter-spacing: 13px;
+  text-transform: uppercase;
+  color: aliceblue;
+  font-weight: 700;
+  padding-left: 2px;
+}
+.allpage .head .headfirst button {
+  background-color: transparent;
+  color: aliceblue;
+  font-weight: 600;
+  border-color: aliceblue;
+  border-radius: 3px;
+  border: 1px solid;
+}
+
+.allpage .head .headfirst button:hover {
+  background-color: aliceblue;
+  color: #025579;
+  border: 1px solid aliceblue;
+}
+
+.fffff {
+  display: flex;
+  flex-direction: row-reverse;
+  margin: auto;
+  padding: auto;
+  margin-right: 30%;
+}
+.allpage .head .headsecond {
+  height: 45vh;
+  width: 100vw;
+}
+.allpage .head .headsecond div {
+  margin-left: 16%;
+  margin-top: 2%;
+}
+#kkk {
+  font-size: 30px;
+  margin-left: 25%;
+}
+.allpage .head .headsecond div p {
+  font-size: 40px;
+  margin: 0;
+  padding: 0%;
+  margin-left: inherit;
+  color: aliceblue;
+  letter-spacing: 4px;
+}
+.jjj {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+.main .jjj .btn2 {
+  margin-left: 40px;
+  background-color: #025579;
+  color: aliceblue;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.main .jjj .btn2:hover {
+  background-color: #025579;
+  color: aliceblue;
+  font-size: 18px;
+  font-weight: 700;
+}
+.main .jjj .btn1 {
+  background-color: #025579da;
+  color: aliceblue;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.main .jjj .btn1:hover {
+  background-color: #025579;
+  color: aliceblue;
+  font-size: 18px;
+  font-weight: 700;
+}
+.bingo {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+}
+.bingo2 {
+  fill: url(#MyGradient);
+}

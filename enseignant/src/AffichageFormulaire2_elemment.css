@@ -1,0 +1,62 @@
+.Affichageformulairewrapper {
+  display: flex;
+  flex-direction: row;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-bottom: 30px;
+  padding: 30px;
+  border: 1px solid gray;
+  border-left: 10px solid #035ca5;
+  border-radius: 10px;
+  align-items: center;
+}
+.Affichageformulairewrapper .Affichageformulaire1 {
+  flex: 1;
+}
+.Affichageformulairewrapper button {
+  height: 40px;
+}
+
+.btnMrigl {
+  background-color: #035ca5;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  width: 100px;
+  color: white;
+  text-transform: uppercase;
+
+  font-weight: bold;
+  cursor: grab;
+}
+.btnMrigl:hover {
+  background-color: #014680;
+}
+.btnMechiMrigl {
+  background-color: #db4545;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  width: 100px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: grab;
+}
+.btnMechiMrigl:hover {
+  background-color: #f60606;
+  cursor: not-allowed;
+}
+
+.Affichageformulairewrapper .Affichageformulaire1 .ElementTitle {
+  font-size: 18px;
+  font-weight: bold;
+}
+.titre {
+  text-decoration: underline;
+  color: #014680;
+}
+.ant-empty-image {
+  margin-top: 100px;
+  height: 300px !important;
+}

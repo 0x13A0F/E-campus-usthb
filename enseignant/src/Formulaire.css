@@ -1,0 +1,41 @@
+.principale {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: "1px solid red";
+  flex-direction: column;
+}
+
+.input {
+  width: 750px;
+  border: none;
+  border-bottom: 2px solid black;
+  height: 40px;
+  font-size: large;
+  margin-bottom: 50px;
+  padding: 10px 18px;
+}
+
+textarea {
+  width: 650px;
+  height: 40px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  margin-bottom: 18px;
+
+  resize: none;
+}
+
+.option {
+  width: 350px;
+  border: none;
+  border-bottom: 1px solid black;
+  height: 40px;
+  margin-bottom: 10px;
+  padding: 10px 18px;
+}

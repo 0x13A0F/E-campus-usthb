@@ -1,0 +1,96 @@
+.container_formulaire_heaad {
+  display: flex;
+  flex-direction: column;
+  margin: 4% 15%;
+  padding: 4%;
+  padding-top: 1%;
+  border: 1px rgb(160, 160, 160) solid;
+  border-radius: 10px;
+  border-top: 10px #026a98 solid;
+  background-image: url("./17580.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.optionsjsss {
+  font-size: 20px;
+  color: #001c2f;
+  font-weight: 600;
+  margin-bottom: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-right: 5px;
+  text-decoration: underline;
+}
+.optionsjsss2 {
+  font-size: 20px;
+  color: #162870;
+  font-weight: 600;
+  margin-bottom: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-right: 5px;
+}
+.TitreDuFormulaire {
+  font-size: 40px;
+  color: black;
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.NomDuModule {
+  font-size: 35px;
+  color: black;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-top: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.Question {
+  margin-bottom: 20px;
+  font-size: 27px;
+  color: black;
+  font-weight: bold;
+
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.RiadFlouw {
+  display: flex;
+  justify-content: center;
+  border: 2px;
+  margin: 0 30%;
+  margin-top: 4%;
+}
+
+.jectoujourspaspk {
+  width: 80%;
+  flex: 1;
+  font-size: 20px;
+}
+.boutonncss {
+  margin-left: 20px;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 25px;
+  background: "dark";
+  font-size: 15px;
+  width: 100px;
+  color: aliceblue;
+  font-weight: bold;
+  outline: none;
+
+  background-color: #1e90ff;
+  align-self: center;
+}
+.RiadFlouw .kunnn{
+  width: 500px;
+  background-color: #026a98;
+  color: aliceblue;
+  font-size: 20px;
+}
+.RiadFlouw .kunnn:hover{
+  
+  background-color: #026a98;
+  color: aliceblue;
+  font-size: 20px;
+}
